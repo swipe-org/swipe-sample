@@ -3,6 +3,7 @@
     "templates": {
         "pages": {
             "*": {
+                "play":"scroll",
                 "elements":[{
                     "id":"box1",
                     "w":300, "h":300,
@@ -25,7 +26,7 @@
     },{
         "elements":[{
             "id":"box1",
-            "to":{ "y":600 }
+            "to":{ "translate":[0, 600] }
         }]
     },{
         "elements":[{
