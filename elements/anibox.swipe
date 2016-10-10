@@ -59,8 +59,8 @@
             "to":{ "bc":"#0f0" }
         },{
             "id":"box3",
-            "rotate":[0, 0, -60],
-            "to":{ "rotate":[0, 0, 60] }
+            "rotate":[0, 0, 60],
+            "to":{ "rotate":[0, 0, -60] }
         }]
     },{
         "elements":[{
@@ -86,6 +86,31 @@
             "id":"box3",
             "scale":[0.5, 2.0],
             "to":{ "scale":[2.0, 0.5] }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "scale":[2.0, 2.0],
+            "to":{ "scale":[1.0, 1.0] }
+        },{
+            "id":"box2",
+            "scale":[0.5, 0.5],
+            "to":{ "scale":[1.0, 1.0] }
+        },{
+            "id":"box3",
+            "scale":[2.0, 0.5],
+            "to":{ "scale":[1.0, 1.0] }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "loop":{ "style":"vibrate", "count":3 }
+        },{
+            "id":"box2",
+            "loop":{ "style":"wiggle", "count":3 }
+        },{
+            "id":"box3",
+            "loop":{ "style":"blink", "count":3 }
         }]
     }]
 }
