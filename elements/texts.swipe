@@ -1,0 +1,26 @@
+{
+    "dimension": [900, 1600],
+    "pages":[{
+        "elements":[{
+            "x":100, "y":100,
+            "text":"Hello World",
+        },{
+            "x":100, "y":200,
+            "text":"Hello World",
+            "textColor":"#f00",
+        },{
+            "x":100, "y":300,
+            "text":"Hello World",
+            "fontSize":"30",
+        },{
+            "x":100, "y":400,
+            "text":"Hello World",
+            "fontName":"Comic Sans MS",
+        },{
+            "x":100, "y":500,
+            "w":700,
+            "text":"Hello World",
+            "textAlign":"right",
+        }]
+    }]
+}
