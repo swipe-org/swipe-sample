@@ -1,0 +1,52 @@
+{
+    "dimension": [900, 1600],
+    "viewstate":false,
+    "templates": {
+        "pages": {
+            "*": {
+                "play":"scroll",
+                "elements":[{
+                    "id":"box1",
+                    "w":300, "h":300,
+                    "bc":"#f00"
+                },{
+                    "id":"box2",
+                    "x":300, "y":300,
+                    "w":300, "h":300,
+                    "bc":"#0f0"
+                },{
+                    "id":"box3",
+                    "x":600, "y":600,
+                    "w":300, "h":300,
+                    "bc":"#00f"
+                }]
+            }
+        }
+    },
+    "pages":[{
+    },{
+        "elements":[{
+            "id":"box1",
+            "to":{ "translate":[0, 600] }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "y":600
+        },{
+            "id":"box2",
+            "to":{ "bc":"#ff0" }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "y":600
+        },{
+            "id":"box2",
+            "bc":"#ff0"
+        },{
+            "id":"box3",
+            "to":{ "rotate":[0, 0, 60] }
+        }]
+    }]
+}
