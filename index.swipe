@@ -1,0 +1,7 @@
+{
+    "type":"net.swipe.list",
+    "rowHeight":"10%",
+    "items":[
+        { "url":"./elements/rectangles.swipe", "title":"Rectangles" },
+    ]
+}
