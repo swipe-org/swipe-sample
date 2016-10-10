@@ -23,19 +23,19 @@
     },
     "pages":[{
     },{
-        "elements":[
+        "elements":[{
             "id":"box1",
             "to":{ "y":600 }
-        ]
+        }]
     },{
-        "elements":[
+        "elements":[{
             "id":"box2",
             "to":{ "bc":"#ff0" }
-        ]
+        }]
     },{
-        "elements":[
+        "elements":[{
             "id":"box3",
             "to":{ "rotate":[0, 0, 90] }
-        ]
+        }]
     }]
 }
