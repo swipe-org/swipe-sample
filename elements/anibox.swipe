@@ -22,5 +22,20 @@
         }
     },
     "pages":[{
+    },{
+        "elements":[
+            "id":"box1",
+            "to":{ "y":600 }
+        ]
+    },{
+        "elements":[
+            "id":"box2",
+            "to":{ "bc":"#ff0" }
+        ]
+    },{
+        "elements":[
+            "id":"box3",
+            "to":{ "rotate":[0, 0, 90] }
+        ]
     }]
 }
