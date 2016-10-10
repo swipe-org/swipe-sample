@@ -1,0 +1,45 @@
+{
+    "dimension": [900, 1600],
+    "pages":[{
+        "elements":[{
+            "x":100, "y":100,
+            "h":100, "w":700,
+            "text":"Hello World",
+        },{
+            "x":100, "y":200,
+            "h":100, "w":700,
+            "text":"Hello World",
+            "textColor":"#f00",
+        },{
+            "x":100, "y":300,
+            "h":100, "w":700,
+            "text":"Hello World (30)",
+            "fontSize":30,
+        },{
+            "x":100, "y":400,
+            "h":100, "w":700,
+            "text":"Hello World (50)",
+            "fontSize":50,
+        },{
+            "x":100, "y":500,
+            "h":100, "w":700,
+            "text":"Hello World (70)",
+            "fontSize":70,
+        },{
+            "x":100, "y":600,
+            "h":100, "w":700,
+            "text":"Hello World",
+            "fontName":"Times New Roman",
+        },{
+            "x":100, "y":700,
+            "h":100, "w":700,
+            "text":"Hello World <-",
+            "textAlign":"left",
+        },{
+            "x":100, "y":800,
+            "h":100, "w":700,
+            "text":"-> Hello World",
+            "textAlign":"right",
+        }]
+    }]
+}

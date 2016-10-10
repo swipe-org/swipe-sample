@@ -3,5 +3,6 @@
     "rowHeight":"10%",
     "items":[
         { "url":"./elements/rectangles.swipe", "title":"Rectangles" },
+        { "url":"./elements/texts.swipe", "title":"Texts" },
     ]
 }
