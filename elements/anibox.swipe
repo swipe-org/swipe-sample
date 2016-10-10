@@ -30,13 +30,22 @@
         }]
     },{
         "elements":[{
+            "id":"box1",
+            "y":600
+        },{
             "id":"box2",
             "to":{ "bc":"#ff0" }
         }]
     },{
         "elements":[{
+            "id":"box1",
+            "y":600
+        },{
+            "id":"box2",
+            "bc":"#ff0"
+        },{
             "id":"box3",
-            "to":{ "rotate":[0, 0, 90] }
+            "to":{ "rotate":[0, 0, 60] }
         }]
     }]
 }
