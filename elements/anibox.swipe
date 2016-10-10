@@ -116,13 +116,16 @@
         "play":"auto",
         "elements":[{
             "id":"box1",
-            "loop":{ "style":"spin", "count":1, "repeat":true }
+            "repeat":true,
+            "loop":{ "style":"spin", "count":1 }
         },{
             "id":"box2",
-            "loop":{ "style":"spin", "count":2, "repeat":true }
+            "repeat":true,
+            "loop":{ "style":"spin", "count":2 }
         },{
             "id":"box3",
-            "loop":{ "style":"spin", "count":3, "repeat":true }
+            "repeat":true,
+            "loop":{ "style":"spin", "count":3 }
         }]
     },{
     }]
