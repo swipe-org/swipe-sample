@@ -60,7 +60,7 @@
         },{
             "id":"box3",
             "rotate":[0, 0, 60],
-            "to":{ "rotate":[0, 0, -60] }
+            "to":{ "rotate":[0, 0, 0] }
         }]
     },{
         "elements":[{
@@ -113,6 +113,7 @@
             "loop":{ "style":"blink", "count":3 }
         }]
     },{
+        "play":"auto",
         "elements":[{
             "id":"box1",
             "loop":{ "style":"spin", "count":1, "repeat":true }
@@ -123,5 +124,6 @@
             "id":"box3",
             "loop":{ "style":"spin", "count":3, "repeat":true }
         }]
+    },{
     }]
 }
