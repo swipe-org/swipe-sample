@@ -1,0 +1,58 @@
+{
+    "dimension": [900, 1600],
+    "viewstate":false,
+    "templates": {
+        "pages": {
+            "*": {
+                "play":"scroll",
+                "elements":[{
+                    "id":"box1",
+                    "w":300, "h":300,
+                    "bc":"#f00"
+                },{
+                    "id":"box2",
+                    "x":300, "y":300,
+                    "w":300, "h":300,
+                    "bc":"#0f0"
+                },{
+                    "id":"box3",
+                    "x":600, "y":600,
+                    "w":300, "h":300,
+                    "bc":"#00f"
+                }]
+            }
+        }
+    },
+    "pages":[{
+    },{
+        "play":"auto",
+        "duration":3.0,
+        "elements":[{
+            "id":"box1",
+            "repeat":true,
+            "loop":{ "style":"spin", "count":1 }
+        },{
+            "id":"box2",
+            "loop":{ "style":"spin", "count":2 }
+        },{
+            "id":"box3",
+            "loop":{ "style":"spin", "count":3 }
+        }]
+    },{
+        "play":"auto",
+        "duration":3.0,
+        "repeat":true,
+        "elements":[{
+            "id":"box1",
+            "loop":{ "style":"spin", "count":1 }
+        },{
+            "id":"box2",
+            "loop":{ "style":"spin", "count":2 }
+        },{
+            "id":"box3",
+            "loop":{ "style":"spin", "count":3 }
+        }]
+    },{
+        "play":"auto",
+    }]
+}
