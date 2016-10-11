@@ -58,5 +58,30 @@
             "scale":[0.5, 2.0],
             "to":{ "scale":[1.0, 1.0] }
         }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "to":{ "lineWidth":20 }
+        },{
+            "id":"box2",
+            "to":{ "strokeColor":"#0ff" }
+        },{
+            "id":"box3",
+            "to":{ "fillColor":"#77f" }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "lineWidth":20,
+            "to":{ "lineWidth":3 }
+        },{
+            "id":"box2",
+            "strokeColor":"#0ff",
+            "to":{ "strokeColor":"#0f0" }
+        },{
+            "id":"box3",
+            "fillColor":"#77f",
+            "to":{ "fillColor":"#0000" }
+        }]
     }]
 }
