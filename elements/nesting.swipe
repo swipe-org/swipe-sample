@@ -13,7 +13,7 @@
                     "lineWidth":3
                 },{
                     "id":"message",
-                    "text":"Hello World",
+                    "text":"Hello World"
                 }]
             }
         },
@@ -78,7 +78,7 @@
             }]
         },{
             "id":"box3",
-            "to":{ "bc":"#ff0", "borderWidth":3, "borderColor":"#00f", "cornerRadius":30 },
+            "to":{ "bc":"#ff0", "borderWidth":3, "borderColor":"#00f", "cornerRadius":30 }
         }]
     }]
 }
