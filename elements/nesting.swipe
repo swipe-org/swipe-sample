@@ -68,17 +68,17 @@
             "id":"box1",
             "elements":[{
                 "id":"vector",
-                "to":{ "lineWidth":5, "strokeColor":"#00f" }
+                "to":{ "lineWidth":5, "strokeColor":"#00f", "path":"M 0,0 C 0,300 300,0 300,300" }
             }]
         },{
             "id":"box2",
             "elements":[{
                 "id":"message",
-                "to":{ "text":"Swipe Rocks!" }
+                "text":"Swipe Rocks!"
             }]
         },{
             "id":"box3",
-            "to":{ "bc":"#ff0" },
+            "to":{ "bc":"#ff0", "borderWidth":3, "borderColor":"#00f", "cornerRadius":10 },
         }]
     }]
 }
