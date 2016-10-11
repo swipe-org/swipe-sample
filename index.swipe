@@ -5,6 +5,7 @@
         { "url":"./elements/rectangles.swipe", "title":"Rectangles" },
         { "url":"./elements/texts.swipe", "title":"Texts" },
         { "url":"./elements/vectors.swipe", "title":"Vectors" },
+        { "url":"./elements/nesting.swipe", "title":"Nested Elements" },
         { "url":"./elements/anibox.swipe", "title":"Box Animations" },
         { "url":"./elements/autoanibox.swipe", "title":"Box Animations (Auto)" }
     ]
