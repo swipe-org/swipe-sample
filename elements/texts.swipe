@@ -41,6 +41,16 @@
             "h":100, "w":700,
             "text":"-> Hello World",
             "textAlign":"right"
+        },{
+            "x":100, "y":900,
+            "h":100, "w":700,
+            "text":"Hello World",
+            "shadow":{}
+        },{
+            "x":100, "y":1000,
+            "h":100, "w":700,
+            "text":"Hello World",
+            "shadow":{ "color":"#00f", "offset":[0,3], "opacity":0.8, "radius":5.0 }
         }]
     }]
 }
