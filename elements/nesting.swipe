@@ -19,29 +19,50 @@
         },
         "pages": {
             "*": {
+                "play":"scroll",
                 "bc":"#88f",
                 "elements":[{
+                    "id":"box1",
                     "template":"hello"
                 },{
+                    "id":"box2",
                     "template":"hello",
                     "x":300,
                     "y":300
                 },{
+                    "id":"box3",
                     "template":"hello",
                     "x":600,
                     "y":600
-                },{
-                    "w":100,
-                    "h":100,
-                    "bc":"#ff0",
-                    "x":600,
-                    "y":900
                 }]
             }
         }
     },
     "pages":[{
     },{
-        "bc":"#8f8"
+        "elements":[{
+            "id":"box1",
+            "to":{ "translate":[0, 600] }
+        },{
+            "id":"box2",
+            "to":{ "rotate":[0, 0, 90] }
+        },{
+            "id":"box3",
+            "to":{ "scale":[0.5, 2.0] }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "translate":[0, 600],
+            "to":{ "translate":[0, 0] }
+        },{
+            "id":"box2",
+            "rotate":[0, 0, 90],
+            "to":{ "rotate":[0, 0, 0] }
+        },{
+            "id":"box3",
+            "scale":[0.5, 2.0],
+            "to":{ "scale":[1.0, 1.0] }
+        }]
     }]
 }
