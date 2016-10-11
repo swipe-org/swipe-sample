@@ -78,7 +78,7 @@
             }]
         },{
             "id":"box3",
-            "to":{ "bc":"#ff0", "borderWidth":3, "borderColor":"#00f", "cornerRadius":10 },
+            "to":{ "bc":"#ff0", "borderWidth":3, "borderColor":"#00f", "cornerRadius":30 },
         }]
     }]
 }
