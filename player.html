@@ -28,9 +28,8 @@
   </style>
 
   <script>
-$(document).ready(function () {
     $(document).ready(function () {
-            $.getJSON("index.swipe", function(json) {
+            $.getJSON("elements/rectangles.swipe", function(json) {
                 SwipeScreen.setSize(80);
                 SwipeUtil.initSwipe(json, "#swipe", "#swipe_back");
                 var swipe_book = SwipeUtil.getSwipeBook();
@@ -40,7 +39,7 @@ $(document).ready(function () {
 
             });
     });
-});
+
 
   </script> 
 
