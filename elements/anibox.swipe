@@ -121,11 +121,23 @@
             "loop":{ "style":"spin", "count":1 }
         },{
             "id":"box2",
-            "repeat":true,
             "loop":{ "style":"spin", "count":2 }
         },{
             "id":"box3",
-            "repeat":true,
+            "loop":{ "style":"spin", "count":3 }
+        }]
+    },{
+        "play":"auto",
+        "duration":3.0,
+        "repeat":true,
+        "elements":[{
+            "id":"box1",
+            "loop":{ "style":"spin", "count":1 }
+        },{
+            "id":"box2",
+            "loop":{ "style":"spin", "count":2 }
+        },{
+            "id":"box3",
             "loop":{ "style":"spin", "count":3 }
         }]
     },{
