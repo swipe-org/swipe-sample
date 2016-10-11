@@ -114,6 +114,7 @@
         }]
     },{
         "play":"auto",
+        "duration":3.0,
         "elements":[{
             "id":"box1",
             "repeat":true,
