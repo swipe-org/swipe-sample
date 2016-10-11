@@ -20,7 +20,6 @@
         "pages": {
             "*": {
                 "play":"scroll",
-                "bc":"#88f",
                 "elements":[{
                     "id":"box1",
                     "template":"hello"
@@ -63,6 +62,23 @@
             "id":"box3",
             "scale":[0.5, 2.0],
             "to":{ "scale":[1.0, 1.0] }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "elements":[{
+                "id":"vector",
+                "to":{ "lineWidth":5, "strokeColor":"#00f" }
+            }]
+        },{
+            "id":"box2",
+            "elements":[{
+                "id":"message",
+                "to":{ "text":"Swipe Rocks!" }
+            }]
+        },{
+            "id":"box3",
+            "to":{ "bc":"#ff0" },
         }]
     }]
 }
