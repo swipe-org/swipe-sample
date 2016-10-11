@@ -29,7 +29,7 @@
 
   <script>
     $(document).ready(function () {
-            $.getJSON("elements/rectangles.swipe", function(json) {
+            $.getJSON("index.swipe", function(json) {
                 SwipeScreen.setSize(80);
                 SwipeUtil.initSwipe(json, "#swipe", "#swipe_back");
                 var swipe_book = SwipeUtil.getSwipeBook();
