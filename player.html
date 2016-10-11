@@ -29,7 +29,14 @@
 
   <script>
     $(document).ready(function () {
-            $.getJSON("index.swipe", function(json) {
+            var file = "";
+            if (SwipeUtil.getParameterByName("file")) {
+                file = SwipeUtil.getParameterByName("file");
+            } else {
+                file = './index.swipe';
+            }
+    
+            $.getJSON(file, function(json) {
                 SwipeScreen.setSize(80);
                 SwipeUtil.initSwipe(json, "#swipe", "#swipe_back");
                 var swipe_book = SwipeUtil.getSwipeBook();
