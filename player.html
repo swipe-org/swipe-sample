@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://js.swipe.net/swipe.css" />
   <link rel="stylesheet" href="https://js.swipe.net/lib/mediaelement/mediaelementplayer.css" />
 
-  <script src='https://js.swipe.net/js/swipe.js'></script>
+  <script src='https://js.swipe.net/js/swipe-0.1.2.js'></script>
 
   <style type="text/css">
     <!--
@@ -28,10 +28,15 @@
   </style>
 
   <script>
-$(document).ready(function () {
     $(document).ready(function () {
-            $.getJSON("index.swipe", function(json) {
-                SwipeScreen.setSize(80);
+            var file = "";
+            if (SwipeUtil.getParameterByName("file")) {
+                file = SwipeUtil.getParameterByName("file");
+            } else {
+                file = './index.swipe';
+            }
+    
+            $.getJSON(file, function(json) {
                 SwipeUtil.initSwipe(json, "#swipe", "#swipe_back");
                 var swipe_book = SwipeUtil.getSwipeBook();
                
@@ -40,7 +45,7 @@ $(document).ready(function () {
 
             });
     });
-});
+
 
   </script> 
 
