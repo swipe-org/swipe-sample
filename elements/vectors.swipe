@@ -83,5 +83,30 @@
             "fillColor":"#77f",
             "to":{ "fillColor":"#0000" }
         }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "to":{ "path":"M 0,0 C 0,300 300,0 300,300" }
+        },{
+            "id":"box2",
+            "to":{ "strokeStart":0.8 }
+        },{
+            "id":"box3",
+            "to":{ "strokeEnd":0.2 }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "path":"M 0,0 C 0,300 300,0 300,300",
+            "to":{ "path":"M 0,0 C 300,0 0,300 300,300" }
+        },{
+            "id":"box2",
+            "strokeStart":0.8,
+            "to":{ "strokeStart":0.0 }
+        },{
+            "id":"box3",
+            "strokeEnd":0.2,
+            "to":{ "strokeEnd":1.0 }
+        }]
     }]
 }
