@@ -21,13 +21,13 @@
             "*": {
                 "bc":"#88f",
                 "elements":[{
-                    "tempalte":"hello"
+                    "template":"hello"
                 },{
-                    "tempalte":"hello",
+                    "template":"hello",
                     "x":300,
                     "y":300
                 },{
-                    "tempalte":"hello",
+                    "template":"hello",
                     "x":600,
                     "y":600
                 },{
