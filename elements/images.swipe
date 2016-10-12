@@ -53,7 +53,7 @@
                     "template":"clip",
                     "elements":[{
                         "id":"building",
-                        "translate":[-480,-853]
+                        "translate":[-420,-747]
                     }],
                     "x":600,
                     "y":1066
