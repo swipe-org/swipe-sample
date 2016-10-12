@@ -44,7 +44,7 @@
                     "template":"clip",
                     "elements":[{
                         "id":"building",
-                        "translate":[-300,-533],
+                        "translate":[-240,-426],
                     }],
                     "x":300,
                     "y":533
@@ -53,7 +53,7 @@
                     "template":"clip",
                     "elements":[{
                         "id":"building",
-                        "translate":[-600,-1066],
+                        "translate":[-480,-853],
                     }],
                     "x":600,
                     "y":1066
@@ -123,20 +123,20 @@
             "id":"box1",
             "elements":[{
                 "id":"building",
-                "translate":[-300,-533],
-            }],
+                "to":{ "translate":[-240,-426] }
+            }]
         },{
             "id":"box2",
             "elements":[{
                 "id":"building",
-                "rotate":[0, 0, 90],
-            }],
+                "to":{ "rotate":[0, 0, 90] }
+            }]
         },{
             "id":"box3",
             "elements":[{
                 "id":"building",
-                "scale":[2.0, 2.0],
-            }],
+                "to":{ "scale":[2.0, 2.0] }
+            }]
         }]
     }]
 }
