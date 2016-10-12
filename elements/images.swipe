@@ -17,6 +17,7 @@
             },
             "orange": {
                 "img":"./orange.png",
+                "w":300, "h":300
             }
         },
         "pages": {
