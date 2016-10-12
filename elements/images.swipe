@@ -1,0 +1,196 @@
+{
+    "dimension": [900, 1600],
+    "viewstate":false,
+    "templates": {
+        "elements": {
+            "building": {
+                "w":300, "h":533,
+                "img":"./building.jpg"
+            },
+            "clip": {
+                "w":300, "h":533,
+                "clip":true,
+                "elements":[{
+                    "id":"building",
+                    "img":"./building.jpg"
+                }]
+            },
+            "orange": {
+                "img":"./orange.png",
+                "w":300, "h":300
+            }
+        },
+        "pages": {
+            "*": {
+                "play":"scroll",
+                "elements":[{
+                    "id":"box1",
+                    "template":"building"
+                },{
+                    "id":"box2",
+                    "template":"building",
+                    "x":300,
+                    "y":533
+                },{
+                    "id":"box3",
+                    "template":"building",
+                    "x":600,
+                    "y":1066
+                }]
+            },
+            "s1": {
+                "play":"scroll",
+                "elements":[{
+                    "id":"box1",
+                    "template":"clip"
+                },{
+                    "id":"box2",
+                    "template":"clip",
+                    "elements":[{
+                        "id":"building",
+                        "translate":[-240,-426]
+                    }],
+                    "x":300,
+                    "y":533
+                },{
+                    "id":"box3",
+                    "template":"clip",
+                    "elements":[{
+                        "id":"building",
+                        "translate":[-420,-747]
+                    }],
+                    "x":600,
+                    "y":1066
+                }]
+            },
+            "s2": {
+                "play":"scroll",
+                "elements":[{
+                    "w":"100%", "h":"100%",
+                    "img":"./building.jpg"
+                },{
+                    "id":"box1",
+                    "template":"orange"
+                },{
+                    "id":"box2",
+                    "template":"orange",
+                    "x":300,
+                    "y":533
+                },{
+                    "id":"box3",
+                    "template":"orange",
+                    "x":600,
+                    "y":1066
+                }]
+            }
+        }
+    },
+    "pages":[{
+    },{
+        "elements":[{
+            "id":"box1",
+            "to":{ "translate":[0, 600] }
+        },{
+            "id":"box2",
+            "to":{ "rotate":[0, 0, 90] }
+        },{
+            "id":"box3",
+            "to":{ "scale":[0.5, 2.0] }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "translate":[0, 600],
+            "to":{ "translate":[0, 0] }
+        },{
+            "id":"box2",
+            "rotate":[0, 0, 90],
+            "to":{ "rotate":[0, 0, 0] }
+        },{
+            "id":"box3",
+            "scale":[0.5, 2.0],
+            "to":{ "scale":[1.0, 1.0] }
+        }]
+    },{
+        "play":"auto",
+        "template":"s1"
+    },{
+        "template":"s1",
+        "elements":[{
+            "id":"box1",
+            "to":{ "translate":[0, 600] }
+        },{
+            "id":"box2",
+            "to":{ "rotate":[0, 0, 90] }
+        },{
+            "id":"box3",
+            "to":{ "scale":[0.5, 2.0] }
+        }]
+    },{
+        "template":"s1",
+        "elements":[{
+            "id":"box1",
+            "translate":[0, 600],
+            "to":{ "translate":[0, 0] }
+        },{
+            "id":"box2",
+            "rotate":[0, 0, 90],
+            "to":{ "rotate":[0, 0, 0] }
+        },{
+            "id":"box3",
+            "scale":[0.5, 2.0],
+            "to":{ "scale":[1.0, 1.0] }
+        }]
+    },{
+        "template":"s1",
+        "elements":[{
+            "id":"box1",
+            "elements":[{
+                "id":"building",
+                "to":{ "translate":[-240,-426] }
+            }]
+        },{
+            "id":"box2",
+            "elements":[{
+                "id":"building",
+                "to":{ "rotate":[0, 0, 90] }
+            }]
+        },{
+            "id":"box3",
+            "elements":[{
+                "id":"building",
+                "to":{ "scale":[2.0, 2.0] }
+            }]
+        }]
+    },{
+        "play":"auto",
+        "template":"s2"
+    },{
+        "template":"s2",
+        "elements":[{
+            "id":"box1",
+            "to":{ "translate":[0, 600] }
+        },{
+            "id":"box2",
+            "to":{ "rotate":[0, 0, 90] }
+        },{
+            "id":"box3",
+            "to":{ "scale":[0.5, 2.0] }
+        }]
+    },{
+        "template":"s2",
+        "elements":[{
+            "id":"box1",
+            "translate":[0, 600],
+            "to":{ "translate":[0, 0] }
+        },{
+            "id":"box2",
+            "rotate":[0, 0, 90],
+            "to":{ "rotate":[0, 0, 0] }
+        },{
+            "id":"box3",
+            "scale":[0.5, 2.0],
+            "to":{ "scale":[1.0, 1.0] }
+        }]
+    }]
+}
