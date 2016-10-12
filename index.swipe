@@ -8,6 +8,7 @@
         { "url":"./elements/vector1.swipe", "title":"Scaled Vector" },
         { "url":"./elements/images.swipe", "title":"Images" },
         { "url":"./elements/nesting.swipe", "title":"Nested Elements" },
+        { "url":"./elements/port.swipe", "title":"Etc (for Android port)" },
         { "url":"./elements/anibox.swipe", "title":"Box Animations" },
         { "url":"./elements/autoanibox.swipe", "title":"Box Animations (Auto)" }
     ]
