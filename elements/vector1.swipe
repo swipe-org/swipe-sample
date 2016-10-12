@@ -1,0 +1,26 @@
+{
+    "title":"vector",
+    "pages":[
+	{
+	    "elements":[
+		{"id":"id0"},
+		{"id":"id1"}],
+	    "template":"s0"}
+    ],
+    "dimension":[576,1024],
+    "templates":{
+	"pages":{
+	    "s0":{
+		"elements":[
+		    {"fillColor":"#74e9ffff","x":238,"y":462,"h":100,"w":100,"id":"id0",
+		     "path":"M0,0C0,0,0,0,0,0L100,0C100,0,100,0,100,0L100,100C100,100,100,100,100,100L0,100C0,100,0,100,0,100L0,0Z",
+		     "lineWidth":1,"scale":[7.561,11.147],"strokeColor":"#000000ff"},
+		    {"w":344.7633,"fontSize":34,"x":115.6184,"textAlign":"left","id":"id1","text":{"*":"Vector"},
+		     "textColor":"#000000ff","scale":[1.362,1.288],"y":412,"fontName":"Helvetica","h":200}
+		]
+	    }
+	}
+    },
+    "type":"net.swipe.swipe"
+}
+
