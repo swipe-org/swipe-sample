@@ -11,6 +11,7 @@
                 "w":300, "h":533,
                 "clip":true,
                 "elements":[{
+                    "id":"building",
                     "img":"building.jpg"
                 }]
             }
@@ -24,11 +25,19 @@
                 },{
                     "id":"box2",
                     "template":"building",
+                    "elements":[{
+                        "id":"building",
+                        "translate":[-300,-533],
+                    }],
                     "x":300,
                     "y":533
                 },{
                     "id":"box3",
                     "template":"building",
+                    "elements":[{
+                        "id":"building",
+                        "translate":[-600,-1066],
+                    }],
                     "x":600,
                     "y":1066
                 }]
