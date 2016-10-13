@@ -6,6 +6,7 @@
         { "url":"./elements/texts.swipe", "title":"Texts" },
         { "url":"./elements/vectors.swipe", "title":"Vectors" },
         { "url":"./elements/vector1.swipe", "title":"Scaled Vector" },
+        { "url":"./elements/vector2.swipe", "title":"Rotated Vector" },
         { "url":"./elements/images.swipe", "title":"Images" },
         { "url":"./elements/nesting.swipe", "title":"Nested Elements" },
         { "url":"./elements/anibox.swipe", "title":"Box Animations" },
