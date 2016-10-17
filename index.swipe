@@ -1,5 +1,6 @@
 {
     "type":"net.swipe.list",
+    "dimension":[576,1024],
     "rowHeight":"10%",
     "items":[
         { "url":"./elements/rectangles.swipe", "title":"Rectangles" },
