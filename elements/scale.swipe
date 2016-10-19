@@ -1,0 +1,21 @@
+{
+    "title":"",
+    "dimension":[576,1024],
+    "pages":
+    [
+	{"elements":
+	 [
+	     {"id":"id0"}
+	 ],
+	 "template":"s0","play":"auto"}],
+    "templates":{
+	"pages":{
+	    "s0":{"elements":
+		  [
+		      {"img":"./swipelogo.png",
+		       "w":1024,"id":"id0","x":-232,"scale":[-0.4,0.4],"y":350,"h":374}
+		  ]
+		 }
+	}
+    },"type":"net.swipe.swipe"
+}
