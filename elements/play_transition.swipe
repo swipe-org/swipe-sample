@@ -10,146 +10,177 @@
                     "id":"red",
                     "w":1024, "h":768,
                     "bc":"#f00"
-                }]
+                }, {
+                    "id":"box",
+                    "w":100, "h":100,
+		    "x": 100 , "y": 100,
+		    "path":"M0,0C0,0,0,0,0,0L100,0C100,0,100,0,100,0L100,100C100,100,100,100,100,100L0,100C0,100,0,100,0,100L0,0Z",
+                    "strokeColor":"#000",
+                    "lineWidth":3,
+                    "bc":"#fff",
+		    "to": {
+			"translate" : [100,  100],
+		    }
+		}]
 	    },
 	    "blue": {
 		"elements":[{
                     "id":"blue",
                     "w":1024, "h":768,
                     "bc":"#00f"
-                }]
+                },{
+                    "id":"box",
+                    "w":100, "h":100,
+		    "x": 100 , "y": 100,
+		    "path":"M0,0C0,0,0,0,0,0L100,0C100,0,100,0,100,0L100,100C100,100,100,100,100,100L0,100C0,100,0,100,0,100L0,0Z",
+                    "strokeColor":"#000",
+                    "lineWidth":3,
+                    "bc":"#fff",
+		    "to": {
+			"translate" : [100,  100],
+		    }
+		}]
 	    },
 	    "green": {
 		"elements":[{
                     "id":"green",
                     "w":1024, "h":768,
                     "bc":"#0f0"
-                }]
+                },{
+                    "id":"box",
+                    "w":100, "h":100,
+		    "x": 100 , "y": 100,
+		    "path":"M0,0C0,0,0,0,0,0L100,0C100,0,100,0,100,0L100,100C100,100,100,100,100,100L0,100C0,100,0,100,0,100L0,0Z",
+                    "strokeColor":"#000",
+                    "lineWidth":3,
+                    "bc":"#fff",
+		    "to": {
+			"translate" : [100,  100],
+		    }
+		}]
 	    }
-	    
 	}
     },
     "title":"",
     "pages":[
 	{
-	"template": "red",
-        "elements":[{
-            "id":"red"
-	}]
-    },{
-	"template": "blue",
-	"elements":[{
-	    "id":"blue"
-	}, {
-            "text":"scroll, auto", "scale": 2 
+	    "template": "red",
+            "elements":[{
+		"id":"red"
+	    }]
+	},{
+	    "template": "blue",
+	    "elements":[{
+		"id":"blue"
+	    }, {
+		"text":"scroll, auto", "scale": 2 
+	    }],
+	    "transition":"scroll",
+	    "play":"auto"
+	},{
+	    "template": "green",
+	    "elements":[{
+		"id":"green"
+	    }, {
+		"text":"scroll, pause", "scale": 2 
+	    }],
+	    "transition":"scroll",
+	    "play":"pause"
+	},{
+	    "template": "red",
+            "elements":[{
+		"id":"red"
+	    }, {
+		"text":"scroll, always", "scale": 2 
+	    }],
+	    "transition":"scroll",
+	    "play":"always"
+	    
+	},{
+	    "template": "blue",
+	    "elements":[{
+		"id":"blue"
+	    }, {
+		"text":"scroll, scroll", "scale": 2 
+	    }],
+	    "transition":"scroll",
+	    "play":"scroll"
+	},{
+	    "template": "green",
+	    "elements":[{
+		"id":"green"
+	    }, {
+		"text":"fadeIn, auto", "scale": 2 
+	    }],
+	    "transition":"fadeIn",
+	    "play":"auto"
+	},{
+	    "template": "red",
+            "elements":[{
+		"id":"red"
+	    }, {
+		"text":"fadeIn, pause", "scale": 2 
+	    }],
+	    "transition":"fadeIn",
+	    "play":"pause"
+	    
+	},{
+	    "template": "blue",
+	    "elements":[{
+		"id":"blue"
+	    }, {
+		"text":"fadeIn, always", "scale": 2
+	    }],
+	    "transition":"fadeIn",
+	    "play":"always"
+	},{
+	    "template": "green",
+	    "elements":[{
+		"id":"green"
+	    }, {
+		"text":"fadeIn, scroll", "scale": 2
+	    }],
+	    "transition":"fadeIn",
+	    "play":"scroll"
+	},{
+	    "template": "red",
+            "elements":[{
+		"id":"red"
+	    }, {
+		"text":"replace, auto", "scale": 2
+	    }],
+	    "transition":"replace",
+	    "play":"auto"
+	    
+	},{
+	    "template": "blue",
+	    "elements":[{
+		"id":"blue"
+	    }, {
+		"text":"replace, pause", "scale": 2 
+	    }],
+	    "transition":"replace",
+	    "play":"pause"
+	},{
+	    "template": "green",
+	    "elements":[{
+		"id":"green"
+	    }, {
+		"text":"replace, always", "scale": 2 
+	    }],
+	    "transition":"replace",
+	    "play":"always"
+	},{
+	    "template": "red",
+            "elements":[{
+		"id":"red"
+	    }, {
+		"text":"replace, scroll", "scale": 2 
+	    }],
+	    "transition":"replace",
+	    "play":"scroll"
+	    
 	}],
-	"transition":"scroll",
-	"play":"auto"
-    },{
-	"template": "green",
-	"elements":[{
-	    "id":"green"
-	}, {
-            "text":"scroll, pause", "scale": 2 
-	}],
-	"transition":"scroll",
-	"play":"pause"
-    },{
-	"template": "red",
-        "elements":[{
-            "id":"red"
-	}, {
-            "text":"scroll, always", "scale": 2 
-	}],
-	"transition":"scroll",
-	"play":"always"
-	
-    },{
-	"template": "blue",
-	"elements":[{
-	    "id":"blue"
-	}, {
-            "text":"scroll, scroll", "scale": 2 
-	}],
-	"transition":"scroll",
-	"play":"scroll"
-    },{
-	"template": "green",
-	"elements":[{
-	    "id":"green"
-	}, {
-            "text":"fadeIn, auto", "scale": 2 
-	}],
-	"transition":"fadeIn",
-	"play":"auto"
-    },{
-	"template": "red",
-        "elements":[{
-            "id":"red"
-	}, {
-            "text":"fadeIn, pause", "scale": 2 
-	}],
-	"transition":"fadeIn",
-	"play":"pause"
-	
-    },{
-	"template": "blue",
-	"elements":[{
-	    "id":"blue"
-	}, {
-            "text":"fadeIn, always", "scale": 2
-	}],
-	"transition":"fadeIn",
-	"play":"always"
-    },{
-	"template": "green",
-	"elements":[{
-	    "id":"green"
-	}, {
-            "text":"fadeIn, scroll", "scale": 2
-	}],
-	"transition":"fadeIn",
-	"play":"scroll"
-    },{
-	"template": "red",
-        "elements":[{
-            "id":"red"
-	}, {
-            "text":"replace, auto", "scale": 2
-	}],
-	"transition":"replace",
-	"play":"auto"
-	
-    },{
-	"template": "blue",
-	"elements":[{
-	    "id":"blue"
-	}, {
-            "text":"replace, pause", "scale": 2 
-	}],
-	"transition":"replace",
-	"play":"pause"
-    },{
-	"template": "green",
-	"elements":[{
-	    "id":"green"
-	}, {
-            "text":"replace, always", "scale": 2 
-	}],
-	"transition":"replace",
-	"play":"always"
-    },{
-	"template": "red",
-        "elements":[{
-            "id":"red"
-	}, {
-            "text":"replace, scroll", "scale": 2 
-	}],
-	"transition":"replace",
-	"play":"scroll"
-	
-    }],
     "orientation":"landscape",
     "type":"net.swipe.swipe"
 }
-
