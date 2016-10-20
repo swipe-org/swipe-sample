@@ -12,6 +12,7 @@
         { "url":"./elements/nesting.swipe", "title":"Nested Elements" },
         { "url":"./elements/anibox.swipe", "title":"Box Animations" },
         { "url":"./elements/autoanibox.swipe", "title":"Box Animations (Auto)" },
+        { "url":"./elements/scale.swipe", "title":"Scale Animations" },
         { "url":"./elements/play_transition.swipe", "title":"Play Transition" }
     ]
 }
