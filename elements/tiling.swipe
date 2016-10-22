@@ -10,6 +10,7 @@
         },
         "pages": {
             "*": {
+                "duration":1.0,
                 "elements":[{
                     "id":"box1",
                     "template":"stars"
