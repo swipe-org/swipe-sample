@@ -4,7 +4,7 @@
     "templates": {
         "elements": {
             "stars": {
-                "x":375, "h":667,
+                "x":375, "y":667,
                 "w":750, "h":1334,
                 "img":"./stars.png"
             }
