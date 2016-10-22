@@ -1,0 +1,27 @@
+{
+    "dimension": [750, 1334],
+    "viewstate":false,
+    "templates": {
+        "elements": {
+            "stars": {
+                "w":750, "h":1334,
+                "img":"./stars.png"
+            }
+        },
+        "pages": {
+            "*": {
+                "elements":[{
+                    "id":"box1",
+                    "template":"stars"
+                }]
+            }
+        }
+    },
+    "pages":[{
+    },{
+        "elements":[{
+            "id":"box1",
+            "to":{ "translate":[10, 10] }
+        }]
+    }]
+}

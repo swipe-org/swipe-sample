@@ -7,6 +7,7 @@
         { "url":"./elements/vectors.swipe", "title":"Vectors" },
         { "url":"./elements/vector1.swipe", "title":"Scaled Vector" },
         { "url":"./elements/images.swipe", "title":"Images" },
+        { "url":"./elements/tiling.swipe", "title":"Tiling" },
         { "url":"./elements/nesting.swipe", "title":"Nested Elements" },
         { "url":"./elements/port.swipe", "title":"Etc (for Android port)" },
         { "url":"./elements/anibox.swipe", "title":"Box Animations" },
