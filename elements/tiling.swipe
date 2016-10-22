@@ -1,9 +1,10 @@
 {
-    "dimension": [750, 1334],
+    "dimension": [1500, 2668],
     "viewstate":false,
     "templates": {
         "elements": {
             "stars": {
+                "x":375, "h":667,
                 "w":750, "h":1334,
                 "img":"./stars.png"
             }
@@ -32,7 +33,7 @@
     },{
         "elements":[{
             "id":"box1",
-            "repeat":true,
+            "tiling":true,
             "loop":{ "style":"shift" }
         }]
     },{
