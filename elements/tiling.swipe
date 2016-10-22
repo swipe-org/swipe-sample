@@ -21,7 +21,20 @@
     },{
         "elements":[{
             "id":"box1",
-            "to":{ "translate":[10, 10] }
+            "loop":{ "style":"shift" },
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "repeat":true
+            "loop":{ "style":"shift" },
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "tiling":true,
+            "repeat":true,
+            "loop":{ "style":"shift" }
         }]
     }]
 }
