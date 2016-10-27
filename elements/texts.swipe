@@ -29,7 +29,7 @@
         },{
             "x":100, "y":600,
             "h":100, "w":700,
-            "text":"Hello World",
+            "text":"Times New Roman",
             "fontName":"Times New Roman"
         },{
             "x":100, "y":700,
