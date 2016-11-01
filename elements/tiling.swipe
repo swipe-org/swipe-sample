@@ -1,0 +1,54 @@
+{
+    "dimension": [1500, 2668],
+    "viewstate":false,
+    "templates": {
+        "elements": {
+            "stars": {
+                "x":375, "y":667,
+                "w":750, "h":1334,
+                "img":"./stars.png"
+            }
+        },
+        "pages": {
+            "*": {
+                "duration":1.0,
+                "elements":[{
+                    "id":"box1",
+                    "template":"stars"
+                }]
+            }
+        }
+    },
+    "pages":[{
+    },{
+        "elements":[{
+            "id":"box1",
+            "loop":{ "style":"shift" }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "loop":{ "style":"shift", "count":3 }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "tiling":true,
+            "loop":{ "style":"shift" }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "tiling":true,
+            "repeat":true,
+            "loop":{ "style":"shift" }
+        }]
+    },{
+        "elements":[{
+            "id":"box1",
+            "tiling":true,
+            "repeat":true,
+            "loop":{ "style":"shift", "timing":[0, 0.5] }
+        }]
+    }]
+}
