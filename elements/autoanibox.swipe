@@ -8,17 +8,20 @@
                 "elements":[{
                     "id":"box1",
                     "w":300, "h":300,
-                    "bc":"#f00"
+                    "bc":"#f00",
+                    "elements":[{"w":30, "h":30,"bc":"#fffa"}]
                 },{
                     "id":"box2",
                     "x":300, "y":300,
                     "w":300, "h":300,
-                    "bc":"#0f0"
+                    "bc":"#0f0",
+                    "elements":[{"w":30, "h":30,"bc":"#fffa"}]
                 },{
                     "id":"box3",
                     "x":600, "y":600,
                     "w":300, "h":300,
-                    "bc":"#00f"
+                    "bc":"#00f",
+                    "elements":[{"w":30, "h":30,"bc":"#fffa"}]
                 }]
             }
         }
@@ -28,8 +31,10 @@
         "play":"auto",
         "duration":3.0,
         "elements":[{
-            "id":"box1",
+            "text":"spin"
+        },{
             "repeat":true,
+            "id":"box1",
             "loop":{ "style":"spin", "count":1 }
         },{
             "id":"box2",
@@ -43,16 +48,64 @@
         "duration":3.0,
         "repeat":true,
         "elements":[{
+            "text":"spin"
+        },{
             "id":"box1",
-            "loop":{ "style":"spin", "count":1 }
+            "loop":{ "style":"spin", "count":1, "clockwise":false }
         },{
             "id":"box2",
-            "loop":{ "style":"spin", "count":2 }
+            "loop":{ "style":"spin", "count":2, "clockwise":false}
         },{
             "id":"box3",
-            "loop":{ "style":"spin", "count":3 }
+            "loop":{ "style":"spin", "count":3, "clockwise":false }
         }]
     },{
-        "play":"auto"
+        "play":"auto",
+        "duration":3.0,
+        "repeat":true,
+        "elements":[{
+            "text":"vibrate"
+        }, {
+            "id":"box1",
+            "loop":{ "style":"vibrate", "count":1 }
+        },{
+            "id":"box2",
+            "loop":{ "style":"vibrate", "count":2, "delta":20}
+        },{
+            "id":"box3",
+            "loop":{ "style":"vibrate", "count":3, "delta":50 }
+        }]
+    },{
+        "play":"auto",
+        "duration":3.0,
+        "repeat":true,
+        "elements":[{
+            "text":"wiggle"
+        },{
+            "id":"box1",
+            "loop":{ "style":"wiggle", "count":1 }
+        },{
+            "id":"box2",
+            "loop":{ "style":"wiggle", "count":2, "delta":20}
+        },{
+            "id":"box3",
+            "loop":{ "style":"wiggle", "count":3, "delta":50 }
+        }]
+    },{
+        "play":"auto",
+        "duration":3.0,
+        "repeat":true,
+        "elements":[{
+            "text":"blink"
+        },{
+            "id":"box1",
+            "loop":{ "style":"blink", "count":1 }
+        },{
+            "id":"box2",
+            "loop":{ "style":"blink", "count":2}
+        },{
+            "id":"box3",
+            "loop":{ "style":"blink", "count":3 }
+        }]
     }]
 }
