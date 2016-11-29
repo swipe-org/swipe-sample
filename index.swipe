@@ -3,6 +3,8 @@
     "dimension":[576,1024],
     "rowHeight":"10%",
     "items":[
+        { "url":"swipie.swipe", "title":"Swipie" },
+        { "url":"swipieguide.swipe", "title":"Swipie Guide" },
         { "url":"./elements/rectangles.swipe", "title":"Rectangles" },
         { "url":"./elements/texts.swipe", "title":"Texts" },
         { "url":"./elements/vectors.swipe", "title":"Vectors" },
