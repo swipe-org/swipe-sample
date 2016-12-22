@@ -1,0 +1,28 @@
+{
+    "dimension":[576, 1024],
+    "pages": [
+        {
+	    "play": "auto",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "auto",  "textColor": "white"}
+            ]
+        },
+        {
+	    "play": "scroll",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "scroll",  "textColor": "white"}
+            ]
+        },
+        {
+	    "play": "pause",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "pause",  "textColor": "white"}
+            ]
+        }
+
+
+    ]
+}
