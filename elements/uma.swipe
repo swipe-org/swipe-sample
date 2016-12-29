@@ -107,7 +107,7 @@
         },
         {
 	    "transition":"replace",
-	    "play": "fadeIn",
+	    "play": "scroll",
             "elements": [
 		{"video":"./uma.qt", "x":0, "y":0 },
 		{"text": "replace,scroll",  "textColor": "white"}
