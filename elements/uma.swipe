@@ -16,13 +16,118 @@
             ]
         },
         {
+	    "play": "always",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "always",  "textColor": "white"}
+            ]
+        },
+        {
 	    "play": "pause",
             "elements": [
 		{"video":"./uma.qt", "x":0, "y":0 },
 		{"text": "pause",  "textColor": "white"}
             ]
+        },
+
+        {
+	    "transition":"scroll",
+	    "play": "auto",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "scroll,auto",  "textColor": "white"}
+            ]
+        },
+        {
+	    "transition":"scroll",
+	    "play": "scroll",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "scroll,scroll",  "textColor": "white"}
+            ]
+        },
+        {
+	    "transition":"scroll",
+	    "play": "always",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "scroll,always",  "textColor": "white"}
+            ]
+        },
+        {
+	    "transition":"scroll",
+	    "play": "pause",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "scroll,pause",  "textColor": "white"}
+            ]
+        },
+
+        {
+	    "transition":"fadeIn",
+	    "play": "auto",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "fadeIn,auto",  "textColor": "white"}
+            ]
+        },
+        {
+	    "transition":"fadeIn",
+	    "play": "scroll",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "fadeIn,scroll",  "textColor": "white"}
+            ]
+        },
+        {
+	    "transition":"fadeIn",
+	    "play": "always",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "fadeIn,always",  "textColor": "white"}
+            ]
+        },
+        {
+	    "transition":"fadeIn",
+	    "play": "pause",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "fadeIn,pause",  "textColor": "white"}
+            ]
+        },
+
+
+        {
+	    "transition":"replace",
+	    "play": "auto",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "replace,auto",  "textColor": "white"}
+            ]
+        },
+        {
+	    "transition":"replace",
+	    "play": "fadeIn",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "replace,scroll",  "textColor": "white"}
+            ]
+        },
+        {
+	    "transition":"replace",
+	    "play": "always",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "replace,always",  "textColor": "white"}
+            ]
+        },
+        {
+	    "transition":"replace",
+	    "play": "pause",
+            "elements": [
+		{"video":"./uma.qt", "x":0, "y":0 },
+		{"text": "replace,pause",  "textColor": "white"}
+            ]
         }
-
-
     ]
 }
